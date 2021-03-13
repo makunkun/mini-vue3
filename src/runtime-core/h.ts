@@ -1,3 +1,4 @@
+import { createVNode } from "./vnode";
 export const h = (type: string, prop: any, children: string | Array<any>) => {
- console.log(type, prop, children);
+  createVNode(type, prop, children);
 }
